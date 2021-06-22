@@ -36,7 +36,7 @@ print("----- Testcase Nr 1 -----")
 print(find_files(".c", test_path1))  # ['./testdir/subdir1\\a.c', './testdir/subdir1\\b.c', './testdir/subdir1\\c.c', './testdir/subdir3\\subsubdir1\\b.c', './testdir/subdir5\\a.c', './testdir/t1.c']
 
 print("----- Testcase Nr 2 -----")
-print(find_files(".py", test_path2))  # ['./Problem 1 - LRU Cache.py', './Problem 1 - LRU Cache_test.py', './problem_2_file_recursion.py'] at the time of writing the program
+print(find_files(".py", test_path2))  # ['./problem_1_LRU_Cache.py', './Problem 1 - LRU Cache_test.py', './problem_2_file_recursion.py'] at the time of writing the program
 
 print("----- Testcase Nr 3 -----")
 print(find_files(".py", test_path3))  # empty list
